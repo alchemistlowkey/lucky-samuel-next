@@ -44,9 +44,13 @@ import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import deployment from "./deployment.svg";
+import deployment_dark from "./deployment-dark.svg";
 import database from "./database.svg";
+import database_dark from "./database-dark.svg";
 import frontend from "./frontend.svg";
+import frontend_dark from "./frontend-dark.svg";
 import backend from "./backend.svg";
+import backend_dark from "./backend-dark.svg";
 
 export const assets = {
   user_image,
@@ -95,9 +99,13 @@ export const assets = {
   right_arrow_bold,
   right_arrow_bold_dark,
   frontend,
+  frontend_dark,
   backend,
+  backend_dark,
   deployment,
+  deployment_dark,
   database,
+  database_dark,
 };
 
 export const workData = [
@@ -126,6 +134,7 @@ export const workData = [
 export const serviceData = [
   {
     icon: assets.frontend,
+    iconDark: assets.frontend_dark,
     title: "Frontend development",
     description:
       "Skilled in React & Svelte for creating modern, reactive web applications.",
@@ -133,6 +142,7 @@ export const serviceData = [
   },
   {
     icon: assets.backend,
+    iconDark: assets.backend_dark,
     title: "Backend Development",
     description:
       "Experience with Express JS (Node.js), Django and Flask for creating efficient backend services.",
@@ -140,6 +150,7 @@ export const serviceData = [
   },
   {
     icon: assets.database,
+    iconDark: assets.database_dark,
     title: "Database Management",
     description:
       "Proficient in PostgreSQL and MongoDB for managing and querying complex data.",
@@ -147,6 +158,7 @@ export const serviceData = [
   },
   {
     icon: assets.deployment,
+    iconDark: assets.deployment_dark,
     title: "Deployment & DevOps",
     description:
       "Experience with deploying both frontends and backends applications on Vercel, VPS, e.t.c.",
