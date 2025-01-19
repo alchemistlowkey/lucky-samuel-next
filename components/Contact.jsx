@@ -22,7 +22,7 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
       subject: "Contact form",
     },
     onSuccess: () => {
-      toast.success("Thank you for contacting us!");
+      toast.success("Thanks for reaching out, I'll get back to you shortly");
       reset();
     },
     onError: (msg) => {
