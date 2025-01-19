@@ -11,7 +11,7 @@ const Services = ({ isDarkMode }) => {
       pageHeader={"What I Offer"}
       subHeader={"My Services"}
       pageDescription={
-        "I am a frontend developer from Lagos, Nigeria with 10 years of experience in multiple companies like Microsoft, Tesla and Apple."
+        "I am a Motivated and results-driven software engineer with a solid foundation in full-stack development and a passion for creating efficient, scalable, and user-focused solutions."
       }
     >
       <motion.div
