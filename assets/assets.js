@@ -110,24 +110,28 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend",
-    description: "Web Design",
+    title: "E-Commerce",
+    description: "With Admin Panel",
     bgImage: "/work-1.png",
+    link: "https://ecommerce-frontend-gamma-orpin.vercel.app/",
   },
   {
     title: "Geo based app",
     description: "Database Design",
     bgImage: "/work-2.png",
+    link: "",
   },
   {
     title: "Real-Estate",
     description: "Full-Stack",
     bgImage: "/work-3.png",
+    link: "https://squaremetres.ng/",
   },
   {
     title: "User Auth...",
     description: "Frontend/Backend",
     bgImage: "/work-4.png",
+    link: "",
   },
 ];
 
