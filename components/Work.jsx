@@ -1,19 +1,43 @@
 import { assets, workData } from "@/assets/assets";
-import Title from "@/shared/Title";
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
 
 const Work = ({ isDarkMode }) => {
   return (
-    <Title
-      pageId={"work"}
-      pageHeader={"My Portfolio"}
-      subHeader={"My Latest Work"}
-      pageDescription={
-        "Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in full-stack development."
-      }
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      id="work"
+      className="w-full px-[12%] py-10 scroll-mt-20"
     >
+      <motion.h4
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        className="text-center mb-2 text-lg font-Ovo"
+      >
+        My Portfolio
+      </motion.h4>
+      <motion.h2
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+        className="text-center text-5xl font-Ovo"
+      >
+        My Latest Work
+      </motion.h2>
+      <motion.p
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.7 }}
+        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
+      >
+        Welcome to my web development portfolio! Explore a collection of
+        projects showcasing my expertise in full-stack development.
+      </motion.p>
+
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -46,7 +70,7 @@ const Work = ({ isDarkMode }) => {
           </motion.div>
         ))}
       </motion.div>
-    </Title>
+    </motion.div>
   );
 };
 

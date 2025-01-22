@@ -1,5 +1,4 @@
 import { assets } from "@/assets/assets";
-import Title from "@/shared/Title";
 import Image from "next/image";
 import React, { useState } from "react";
 import { toast } from "react-toastify";
@@ -46,15 +45,40 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
   };
 
   return (
-    <Title
-      pageId={"contact"}
-      pageHeader={"Connect with me"}
-      subHeader={"Get in touch"}
-      pageDescription={
-        "I'd love to hear from you! I’m always open to new opportunities and collaborations. Whether you have a project idea or just want to connect, feel free to reach out! please use the form below"
-      }
-      pageBg
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      id="contact"
+      className="w-full px-[12%] py-10 scroll-mt-20 bg-[url(/footer-bg-color.png)] bg-no-repeat bg-center bg-[length:90%_auto]"
     >
+      <motion.h4
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        className="text-center mb-2 text-lg font-Ovo"
+      >
+        Connect with me
+      </motion.h4>
+      <motion.h2
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+        className="text-center text-5xl font-Ovo"
+      >
+        Get in touch
+      </motion.h2>
+      <motion.p
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.7 }}
+        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
+      >
+        I'd love to hear from you! I’m always open to new opportunities and
+        collaborations. Whether you have a project idea or just want to connect,
+        feel free to reach out! please use the form below.
+      </motion.p>
+
       <motion.form
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -102,7 +126,12 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
           }`}
           disabled={loading}
         >
-          {loading ? <ScaleLoader color={isDarkMode ? "white" : "green"} /> : "Submit now"} {""}
+          {loading ? (
+            <ScaleLoader color={isDarkMode ? "white" : "green"} />
+          ) : (
+            "Submit now"
+          )}{" "}
+          {""}
           {loading ? (
             ""
           ) : (
@@ -117,7 +146,7 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
           {result}
         </p>
       </motion.form>
-    </Title>
+    </motion.div>
   );
 };
 

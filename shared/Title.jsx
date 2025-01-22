@@ -6,7 +6,6 @@ const Title = ({
   pageHeader,
   subHeader,
   pageDescription,
-  pageBg,
   children,
 }) => {
   return (
@@ -15,11 +14,7 @@ const Title = ({
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       id={pageId}
-      className={`w-full px-[12%] py-10 scroll-mt-20 ${
-        pageBg
-          ? "bg-[url(/footer-bg-color.png)] bg-no-repeat bg-center bg-[length:90%_auto]"
-          : ""
-      }`}
+      className="w-full px-[12%] py-10 scroll-mt-20"
     >
       <motion.h4
       initial={{ opacity: 0, y: -20 }}
