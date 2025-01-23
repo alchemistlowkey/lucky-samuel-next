@@ -13,7 +13,24 @@ const ovo = Ovo({
 
 export const metadata = {
   title: "Lucky Samuel",
-  description: "",
+  description:
+    "I'm a full-stack web Developer Skilled in designing and deploying robust web applications using frameworks like React, Next.js, SvelteKit e.t.c.",
+  openGraph: {
+    title: "Lucky Samuel",
+    description:
+      "I'm a full-stack web Developer Skilled in designing and deploying robust web applications using frameworks like React, Next.js, SvelteKit e.t.c.",
+    url: "https://lucky-samuel-next.vercel.app",
+    siteName: "Lucky Samuel",
+    images: [
+      {
+        url: "https://lucky-samuel-next.vercel.app/opengraph-image.png",
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({ children }) {
