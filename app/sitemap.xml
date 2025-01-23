@@ -12,6 +12,12 @@
         <priority>1</priority>
     </url>
     <url>
+        <loc>https://luckysamuel.engineer</loc>
+        <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>1</priority>
+    </url>
+    <url>
         <loc>https://www.luckysamuel.vercel.app</loc>
         <lastmod>2023-04-06T15:02:24.021Z</lastmod>
         <changefreq>yearly</changefreq>
