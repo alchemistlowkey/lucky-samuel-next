@@ -44,6 +44,9 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: 'wp5DY8gv9e4jfw2n1Xi8NKFcXXJA04DHRNKaBZDA0cQ',
+  }
 };
 
 export default function RootLayout({ children }) {
