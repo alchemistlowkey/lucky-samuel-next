@@ -50,7 +50,7 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       id="contact"
-      className="w-full px-[12%] py-10 scroll-mt-20 bg-[url(/footer-bg-color.png)] bg-no-repeat bg-center bg-[length:90%_auto]"
+      className={`w-full px-[12%] py-10 scroll-mt-20 ${isDarkMode ? "" : "bg-[url(/footer-bg-color.png)] bg-no-repeat bg-center bg-[length:90%_auto]" }`}
     >
       <motion.h4
         initial={{ opacity: 0, y: -20 }}
