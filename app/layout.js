@@ -45,8 +45,9 @@ export const metadata = {
     },
   },
   verification: {
-    google: 'wp5DY8gv9e4jfw2n1Xi8NKFcXXJA04DHRNKaBZDA0cQ',
-  }
+    google: "wp5DY8gv9e4jfw2n1Xi8NKFcXXJA04DHRNKaBZDA0cQ",
+    google: "HCKtCl9zCRisSgzo_N5NWQehnQxe0CPrqsOxsIm-5ro",
+  },
 };
 
 export default function RootLayout({ children }) {
