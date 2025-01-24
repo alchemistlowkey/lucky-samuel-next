@@ -18,6 +18,7 @@ export const metadata = {
   images: [
     {
       url: "https://lucky-samuel-next.vercel.app/opengraph-image.png",
+      url: "https://luckysamuel.engineer/opengraph-image.png",
       url: "https://www.luckysamuel.engineer/opengraph-image.png",
       width: 800,
       height: 600,
@@ -37,6 +38,7 @@ export const metadata = {
     images: [
       {
         url: "https://lucky-samuel-next.vercel.app/opengraph-image.png",
+        url: "https://luckysamuel.engineer/opengraph-image.png",
         url: "https://www.luckysamuel.engineer/opengraph-image.png",
         width: 800,
         height: 600,

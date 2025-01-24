@@ -18,33 +18,33 @@
         <priority>1</priority>
     </url>
     <url>
-        <loc>https://www.luckysamuel.vercel.app</loc>
+        <loc>https://luckysamuel.vercel.app</loc>
         <lastmod>2023-04-06T15:02:24.021Z</lastmod>
         <changefreq>yearly</changefreq>
         <priority>1</priority>
     </url>
     <url>
-        <loc>https://lucky-samuel-next.vercel.app/#about</loc>
+        <loc>https://luckysamuel.engineer/#about</loc>
         <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-        <changefreq>monthly</changefreq>
+        <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://lucky-samuel-next.vercel.app/#services</loc>
+        <loc>https://luckysamuel.engineer/#services</loc>
         <lastmod>2023-04-06T15:02:24.021Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://lucky-samuel-next.vercel.app/#work</loc>
+        <loc>https://luckysamuel.engineer/#work</loc>
         <lastmod>2023-04-06T15:02:24.021Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://lucky-samuel-next.vercel.app/#contact</loc>
+        <loc>https://luckysamuel.engineer/#contact</loc>
         <lastmod>2023-04-06T15:02:24.021Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <priority>0.8</priority>
     </url>
 </urlset>
