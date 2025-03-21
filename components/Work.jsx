@@ -54,8 +54,8 @@ const Work = ({ isDarkMode }) => {
             >
               <div className="bg-white w-10/12 absolute rounded-md bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7 border border-gray-300">
                 <div className="">
-                  <h2 className="font-semibold">{project.title}</h2>
-                  <p className="text-sm text-gray-700">{project.description}</p>
+                  <h2 className="font-semibold text-nowrap">{project.title}</h2>
+                  <p className="text-sm text-gray-700 text-nowrap">{project.description}</p>
                 </div>
                 <div className="border border-black rounded-full w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
                   <Image

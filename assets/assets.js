@@ -112,11 +112,11 @@ export const workData = [
   {
     title: "E-Commerce",
     description: "With Admin Panel",
-    bgImage: "/work-1.png",
-    link: "https://ecommerce-frontend-gamma-orpin.vercel.app/",
+    bgImage: "/work-5.png",
+    link: "https://quick-cart-amber-six.vercel.app/",
   },
   {
-    title: "Geo based app",
+    title: "Geo-based app",
     description: "Database Design",
     bgImage: "/work-2.png",
     link: "",

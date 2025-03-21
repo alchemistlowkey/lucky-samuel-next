@@ -39,7 +39,7 @@ const Header = () => {
         I'm a full-stack web Developer Skilled in designing and deploying robust
         web applications using frameworks like{" "}
         <span className="font-medium">
-          React, Next.js, SvelteKit e.t.c.
+          Svelte, React, Next.js, SvelteKit e.t.c.
         </span>
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
