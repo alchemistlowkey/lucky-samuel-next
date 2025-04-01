@@ -128,10 +128,10 @@ export const workData = [
     link: "https://squaremetres.ng/",
   },
   {
-    title: "User Auth...",
-    description: "Frontend/Backend",
-    bgImage: "/work-4.png",
-    link: "",
+    title: "Leave application",
+    description: "Full-Stack",
+    bgImage: "/work-6.png",
+    link: "https://workplace-pi.vercel.app/",
   },
 ];
 
