@@ -117,9 +117,9 @@ export const workData = [
   },
   {
     title: "Geo-based app",
-    description: "Database Design",
-    bgImage: "/work-2.png",
-    link: "",
+    description: "Fleet mgt. sys.",
+    bgImage: "/work-7.png",
+    link: "https://fleet-management-inky.vercel.app/",
   },
   {
     title: "Real-Estate",
