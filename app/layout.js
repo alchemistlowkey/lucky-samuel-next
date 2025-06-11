@@ -35,15 +35,6 @@ export const metadata = {
     url: "https://www.luckysamuel.engineer",
     url: "https://luckysamuel.engineer",
     siteName: "Lucky Samuel",
-    images: [
-      {
-        url: "https://lucky-samuel-next.vercel.app/opengraph-image.png",
-        url: "https://luckysamuel.engineer/opengraph-image.png",
-        url: "https://www.luckysamuel.engineer/opengraph-image.png",
-        width: 800,
-        height: 600,
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
